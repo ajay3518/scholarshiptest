@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scholarship Test Registration</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>Scholarship Test 2025</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#" role="button">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Register for the Scholarship Test</h2>
+          <h3>Conducted by Our Academy</h3>
+        </hgroup>
+        <p>The scholarship test will be conducted on <strong>19th January 2025</strong> for students from Std. 6 to 10 and 11th Science. Duration: <strong>1 hour 30 minutes</strong>.</p>
+        <figure>
+          <img src="https://source.unsplash.com/800x400/?education,classroom" alt="Students in a classroom" />
+          <figcaption><a href="https://unsplash.com" target="_blank">Image Source: Unsplash</a></figcaption>
+        </figure>
+        <h3>Exam Details</h3>
+        <p><strong>Date:</strong> 19th January 2025<br><strong>Timing:</strong> 10 AM to 11:30 AM</p>
+        <h3>Registration Fee</h3>
+        <p>₹100 (to be paid after registration)</p>
+      </section>
+    </div>
+
+    <section aria-label="Registration Form">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Registration Form</h2>
+            <h3>Please fill out the form to register</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="studentName" name="studentName" placeholder="Student Name" aria-label="Student Name" required>
+            <input type="text" id="fatherName" name="fatherName" placeholder="Father's Name" aria-label="Father's Name" required>
+            <input type="text" id="school" name="school" placeholder="School Name" aria-label="School Name" required>
+            <input type="text" id="currentStd" name="currentStd" placeholder="Current Standard" aria-label="Current Standard" required>
+            <input type="text" id="applyingStd" name="applyingStd" placeholder="Applying for Standard" aria-label="Applying for Standard" required>
+            <input type="text" id="nearestCentre" name="nearestCentre" placeholder="Nearest Exam Centre" aria-label="Nearest Exam Centre" required>
+            <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" aria-label="Mobile Number" required>
+            <input type="email" id="email" name="email" placeholder="Email ID" aria-label="Email ID" required>
+            <input type="text" id="board" name="board" placeholder="Education Board" aria-label="Education Board" required>
+            <button type="submit" onclick="event.preventDefault()">Register & Proceed to Payment</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>
+      <a href="#">Privacy Policy</a> • <a href="#">Terms & Conditions</a>
+    </small>
+  </footer>
+</body>
+</html>
